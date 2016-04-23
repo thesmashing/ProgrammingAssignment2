@@ -3,7 +3,11 @@
 This second programming assignment will require you to write an R
 function that is able to cache potentially time-consuming computations.
 For example, taking the mean of a numeric vector is typically a fast
+<<<<<<< HEAD
 operation. However, for a very calong vector, it may take too long to
+=======
+operation. However, for a very long vector, it may take too long to
+>>>>>>> 7f657dd22ac20d22698c53b23f0057e1a12c09b7
 compute the mean, especially if it has to be computed repeatedly (e.g.
 in a loop). If the contents of a vector are not changing, it may make
 sense to cache the value of the mean so that when we need it again, it
@@ -41,7 +45,10 @@ really a list containing a function to
             list(set = set, get = get,
                  setmean = setmean,
                  getmean = getmean)
+<<<<<<< HEAD
                
+=======
+>>>>>>> 7f657dd22ac20d22698c53b23f0057e1a12c09b7
     }
 
 The following function calculates the mean of the special "vector"

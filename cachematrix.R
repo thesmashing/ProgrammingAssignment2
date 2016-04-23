@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## I have based on an example makeVector and cachemean from README.md
 # The goal of the functions is to calculate inverse of a matrix and cache it for future calculations
 
@@ -51,3 +52,4 @@ cacheSolve <- function(x, ...) {
 #a$getinv() #checking if an inverted matrix is NULL
 #cacheSolve (a) #Creating an inverted matrix
 #cacheSolve (a) #Calling a cache
+=======
